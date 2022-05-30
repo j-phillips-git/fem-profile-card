@@ -1,0 +1,139 @@
+/* COLORS */
+:root {
+    --clr-main-background: #19A1AE;
+    --clr-card-background: #FFFFFF;
+    --clr-bold-text: #2E3349;
+    --clr-light-text: #6B7082;
+    --clr-hr: #E8E9EC;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+h1, 
+.stat-numbers {
+    color: var(--clr-bold-text);
+}
+
+p, 
+span, 
+.stat-type {
+    color: var(--clr-light-text);
+}
+
+h1, 
+.stat-numbers {
+    font-weight: 700;
+}
+
+p, 
+span, 
+.stat-type {
+    font-weight: 400;
+}
+
+h1, 
+span, 
+.stat-numbers {
+    font-size: 1.125rem;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat:  no-repeat, no-repeat;
+    min-height: 100vh;
+    background-position: right 52.5vw  bottom 35vh, left 51vw  top  49vh;
+    background-color: var(--clr-main-background);
+}
+
+.card-img {
+    background-image: url(images/bg-pattern-card.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 140px;
+}
+
+.main-container {
+    background-color: var(--clr-card-background);
+    border-radius: 15px;
+    margin: 147px 25px 0 25px;
+    width: 87%;
+    max-width: 350px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+img {
+    position: absolute;
+    border: 5px solid #FFFFFF;
+    border-radius: 50%;
+    left: calc(33.5%);
+    bottom: calc(54%)
+}
+
+h1 {
+    margin: 72px 0 8px 0;
+}
+
+span {
+    margin-left: 8.5px;
+}
+
+p {
+    font-size: 0.875rem;
+}
+
+hr {
+    margin: 28px 0 53px 0;
+    border-color: var(--clr-hr);
+}
+
+ul {
+    list-style: none;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.stat-numbers {
+    margin-bottom: 9px;
+}
+
+.stat-type {
+    font-size: 0.625rem;
+    padding-bottom: 2.7em;
+    letter-spacing: 1.5px;
+}
+
+@media (max-width: 320px) {
+    img {
+        left: calc(31%);
+    }
+}
+
+@media (max-width: 280px) {
+    img {
+        left: calc(28%);
+    }
+}
+
+
