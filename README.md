@@ -16,16 +16,17 @@ This is a solution to the [Profile card component challenge on Frontend Mentor]
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: (https://j-phillips-git.github.io/fem-profile-card/)
 
 ### Built with
 
 - HTML
 - CSS
+
 ## Author
 
 - LinkedIn - [https://www.linkedin.com/in/jordan-phillips-/]
